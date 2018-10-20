@@ -20,15 +20,19 @@ header li {
 
 body {
   display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0 auto;
 
 }
 
 #left{
-  background-color: purple;
+  background-image: linear-gradient(purple, blue);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items:center;
 }
 
-#left img {
-  background-image: url(../assets/images/bg-intro.svg);
+#right {
+  
 }
