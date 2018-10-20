@@ -22,3 +22,13 @@ body {
   display: flex;
 
 }
+
+#left{
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+}
+
+#left img {
+  background-image: url(../assets/images/bg-intro.svg);
+}
