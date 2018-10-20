@@ -9,9 +9,16 @@ header ul{
   width: 120px;
   margin: 0;
   padding: 0;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
 }
 
 header li {
   display: inline;
+}
+
+body {
+  display: flex;
 
 }
