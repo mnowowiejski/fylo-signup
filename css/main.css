@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.google.com/specimen/Open+Sans');
 
+
 p {
   font-family: "Open+Sans", sans-serif;
   color: hsl(0, 0%, 50%);
 }
 
 main {
-  background-color: white;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
-    padding: 0 20px;
+
+
 }
 
 header{
@@ -36,10 +37,11 @@ header li {
 
 body {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  width: 800px;
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
+
 
 }
 
@@ -52,6 +54,27 @@ body {
 
 #right {
   width: 80%;
+}
+
+/*start form styles here  */
+
+form {
+  background-color: yellow;
+  padding: 0;
+}
+
+fieldset {
+  border-style: none;
+
+}
+
+label {
+
+}
+
+button {
+  background-color: hsl(163, 95%, 43%);
+  color: white;
 }
 
 footer {
