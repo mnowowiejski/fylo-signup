@@ -4,16 +4,16 @@
 
 ### Primary
 
-- hsl(243, 86%, 85%)
-- hsl(243, 87%, 12%)
+- hsl(243, 86%, 85%) light purple
+- hsl(243, 87%, 12%) dark purple
 
 ### Accent
 
-- hsl(163, 95%, 43%)
+- hsl(163, 95%, 43%) green for button
 
 ### Neutral
 
-- hsl(0, 0%, 50%)
+- hsl(0, 0%, 50%) Typography gray
 
 ## Typography
 
