@@ -71,6 +71,7 @@ fieldset {
 input {
   width:60%;
   height: 30px;
+  filter: drop-shadow(0 0 3px #333);
 }
 
 button {
@@ -80,6 +81,7 @@ button {
   color: white;
   width: 30%;
   height: 30px;
+  filter: drop-shadow(0 0 3px #333);
 }
 
 footer {
