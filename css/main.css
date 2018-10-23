@@ -54,7 +54,7 @@ body {
   justify-content: space-around;
   align-items:center;
   width: 50vw;
-  height: vmax;
+  height: 100vh;
 }
 
 #right {
@@ -84,7 +84,7 @@ fieldset {
 }
 
 input {
-  width:60%;
+  width:70%;
   height: 30px;
   filter: drop-shadow(4px 4px 3px #999);
 }
