@@ -2,6 +2,8 @@
 @import url('https://fonts.google.com/specimen/Open+Sans');
 *{box-sizing: border-box;}
 
+
+
 p {
   font-family: "Open+Sans", sans-serif;
   color: hsl(0, 0%, 50%);
@@ -16,55 +18,62 @@ main {
   justify-content: space-between;
   padding: 0 20px;
 
+
 }
 
 header{
+  position: absolute;
+  top: 0;
   display:flex;
+  flex-direction: row;
   justify-content: space-between;
-  margin: 20px;
-  height: 10vh;
+  width: 100vw;
+  padding: 1em;
+  margin-bottom: 10px;
+
 }
 
 header ul{
-  list-style: none;
-  width: 120px;
   margin: 0;
-  padding: 0;
-  width: 150px;
+  padding-left: 1em;
+  list-style: none;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+
 }
 
 header li {
-  display: inline;
-  width:30px;
+  width: 30px;
 }
 
 body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-#left{
-  background-image: linear-gradient(45deg, hsl(243, 86%, 85%),  hsl(243, 87%, 12%));
+#left {
+  min-height: 500px;
   display: flex;
-  justify-content: space-around;
-  align-items:center;
-  width: 50vw;
-  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url(../assets/images/bg-intro.svg);
+  background-size: cover;
 }
 
 #right {
-  width: 50vw;
-  height: vmax;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
 }
+
+
 
 /*start form styles here  */
 form{
@@ -73,8 +82,9 @@ form{
 }
 
 fieldset {
+
   border-style: none;
-  padding: 10px;
+
 
 
 }
@@ -84,8 +94,8 @@ fieldset {
 }
 
 input {
-  width:70%;
-  height: 30px;
+  width:100%;
+  height: 50px;
   filter: drop-shadow(4px 4px 3px #999);
 }
 
@@ -94,9 +104,9 @@ button {
   text-align: center;
   font-weight: bold;
   color: white;
-  width: 25%;
-  height: 30px;
-  filter: drop-shadow(4px 4px 3px #999);
+  width: 100%;
+  height: 50px;
+  margin-top: 2em;
 }
 
 footer {
@@ -110,3 +120,34 @@ footer {
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+@media screen and (min-width: 480px){
+  body{
+    flex-direction: row;
+  }
+  #left {
+      width: 50vw;
+      height: 100vh;
+      background-image: linear-gradient(45deg, hsl(243, 86%, 85%),  hsl(243, 87%, 12%));
+
+  }
+  #right {
+      width: 50vw;
+      height: 100vh;
+  }
+
+
+    button {
+        width: 40%;
+        margin-left: 10px;
+    }
+
+    input {
+      width:50%
+    }
+
+    header {
+      position: relative;
+
+    }
+}
