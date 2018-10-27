@@ -56,13 +56,13 @@ body {
   padding: 0;
 }
 
-svg {
+svg, mask, path {
   fill:white;
 
 }
 
 #left {
-  min-height: 500px;
+  min-height: 530px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,7 +141,7 @@ footer {
       height: 100vh;
   }
 
-svg {
+svg, mask, path {
   fill:black;
 
 }
@@ -155,7 +155,10 @@ svg {
     }
 
     header {
-      position: relative;
+        position: static;
+        display: flex;
+        flex-direction: row;
+        width: auto;
 
     }
 }
