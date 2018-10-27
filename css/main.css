@@ -141,8 +141,9 @@ footer {
       height: 100vh;
   }
 
-svg, mask, path, g, defs {
-  fill:black;
+svg, mask, path, g, defs, use, symbol{
+   fill: purple;
+
 
 }
     button {
