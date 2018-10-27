@@ -56,6 +56,11 @@ body {
   padding: 0;
 }
 
+svg {
+  fill:white;
+
+}
+
 #left {
   min-height: 500px;
   display: flex;
@@ -136,7 +141,10 @@ footer {
       height: 100vh;
   }
 
+svg {
+  fill:black;
 
+}
     button {
         width: 40%;
         margin-left: 10px;
