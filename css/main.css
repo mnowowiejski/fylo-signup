@@ -56,7 +56,7 @@ body {
   padding: 0;
 }
 
-svg, mask, path {
+svg, mask, path, g {
   fill:white;
 
 }
@@ -141,7 +141,7 @@ footer {
       height: 100vh;
   }
 
-svg, mask, path {
+svg, mask, path, g, defs {
   fill:black;
 
 }
