@@ -44,6 +44,8 @@ header ul{
 
 }
 
+
+
 header li {
   width: 30px;
 }
@@ -55,11 +57,14 @@ body {
   margin: 0;
   padding: 0;
 }
-
-svg, mask, path, g {
+#fylo {
+  fill: white;
+}
+ul svg {
   fill:white;
 
 }
+
 
 #left {
   min-height: 530px;
@@ -141,10 +146,12 @@ footer {
       height: 100vh;
   }
 
-svg, mask, path, g, defs, use, symbol{
-   fill: purple;
+ul svg {
+  fill:black;
+}
 
-
+#fylo {
+  fill: black;
 }
     button {
         width: 40%;
@@ -160,6 +167,7 @@ svg, mask, path, g, defs, use, symbol{
         display: flex;
         flex-direction: row;
         width: auto;
+
 
     }
 }
